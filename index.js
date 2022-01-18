@@ -41,13 +41,14 @@ function setGUI(gui) {
   fontsFolder.add(dynamicCSS, 'sahne-font-family', {'Times New Roman':'Times New Roman', Arial:'Arial',Helvetica:'Helvetica'}).onFinishChange(()=>cssChanged('sahne-font-family')).name('Sahne Font Tipi')
   fontsFolder.add(dynamicCSS, 'sahne-font-style', {normal:'normal', italic:'italic',oblique:'oblique'}).onFinishChange(()=>cssChanged('sahne-font-style')).name('Sahne Font Stili')
   fontsFolder.add(dynamicCSS, 'chars-font-style', {normal:'normal', italic:'italic',oblique:'oblique'}).onFinishChange(()=>cssChanged('chars-font-style')).name('Karakter Font Stili')
-  fontsFolder.add(dynamicCSS, 'sahne-font-decoration', {none:'none',overline:'overline', 'line-through':'line-through',underline:'underline'}).onFinishChange(()=>cssChanged('sahne-font-decoration')).name('Sahne Font Dekarasyonu')
-  fontsFolder.add(dynamicCSS, 'chars-font-decoration', {none:'none',overline:'overline', 'line-through':'line-through',underline:'underline'}).onFinishChange(()=>cssChanged('chars-font-decoration')).name('Karakter Font Dekarasyonu')
-  fontsFolder.add(dynamicCSS, 'sahne-font-transform', {none:'none',uppercase:'uppercase', lowercase:'lowercase',capitalize:'capitalize'}).onFinishChange(()=>cssChanged('sahne-font-transform')).name('Sahne Font Transformu')
-  fontsFolder.add(dynamicCSS, 'chars-font-transform', {none:'none',uppercase:'uppercase', lowercase:'lowercase',capitalize:'capitalize'}).onFinishChange(()=>cssChanged('chars-font-transform')).name('Karakter Font Transformu')
+  fontsFolder.add(dynamicCSS, 'sahne-text-decoration', {none:'none',overline:'overline', 'line-through':'line-through',underline:'underline'}).onFinishChange(()=>cssChanged('sahne-text-decoration')).name('Sahne Text Dekarasyonu')
+  fontsFolder.add(dynamicCSS, 'chars-text-decoration', {none:'none',overline:'overline', 'line-through':'line-through',underline:'underline'}).onFinishChange(()=>cssChanged('chars-text-decoration')).name('Karakter Text Dekarasyonu')
+  fontsFolder.add(dynamicCSS, 'sahne-text-transform', {none:'none',uppercase:'uppercase', lowercase:'lowercase',capitalize:'capitalize'}).onFinishChange(()=>cssChanged('sahne-text-transform')).name('Sahne Text Transformu')
+  fontsFolder.add(dynamicCSS, 'chars-text-transform', {none:'none',uppercase:'uppercase', lowercase:'lowercase',capitalize:'capitalize'}).onFinishChange(()=>cssChanged('chars-text-transform')).name('Karakter Text Transformu')
   fontsFolder.add(dynamicCSS, 'sahne-font-size',10,40,0.5 ).onChange(()=>cssChanged('sahne-font-size')).name('Sahne Font Size')
   fontsFolder.add(dynamicCSS, 'chars-font-size',10,40,0.5 ).onChange(()=>cssChanged('chars-font-size')).name('Karakter Font Size')
-
-
-
+  fontsFolder.add(dynamicCSS, 'sahne-line-height',0,5,0.1 ).onChange(()=>cssChanged('sahne-line-height')).name('Sahne Line Height')
+  fontsFolder.add(dynamicCSS, 'chars-line-height',0,5,0.1 ).onChange(()=>cssChanged('chars-line-height')).name('Karakter Line Height')
+  fontsFolder.add(dynamicCSS, 'sahne-font-weight',100,900,100 ).onChange(()=>cssChanged('sahne-font-weight')).name('Sahne Font Kalınlığı')
+  fontsFolder.add(dynamicCSS, 'chars-font-weight',100,900,100 ).onChange(()=>cssChanged('chars-font-weight')).name('Karakter Font Kalınlığı')
 }

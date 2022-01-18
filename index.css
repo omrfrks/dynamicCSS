@@ -1,6 +1,7 @@
 :root {
   --chars-text-color: red;
   --sahne-line-height:1.5;
+  --chars-line-height:1.5;
   --sahne-color:red;
   --chars-font-size:10px;
   --chars-font-family:Times;
@@ -28,6 +29,7 @@
   font-style: var(--chars-font-style);
   text-decoration: var(--chars-text-decoration);
   text-transform: var(--chars-text-transform);
+  line-height: var(--chars-line-height);
 }
 
 .sahne{
@@ -35,7 +37,7 @@ line-height: var(--sahne-line-height);
 color:  var(--sahne-color);
 font-size: var(--sahne-font-size);
 text-indent: var(--sahne-text-indent);
-font-family: var(--sahne-font);
+font-family: var(--sahne-font-family);
 background-color: var(--sahne-background-color);
 font-weight: var(--sahne-font-weight);
 font-style: var(--sahne-font-style);
