@@ -1,0 +1,44 @@
+:root {
+  --chars-text-color: red;
+  --sahne-line-height:1.5;
+  --sahne-color:red;
+  --chars-font-size:10px;
+  --chars-font-family:Times;
+  --sahne-font-size:10px;
+  --sahne-text-indent:10px;
+  --sahne-font-family:Arial;
+  --chars-background-color:white;
+  --sahne-background-color:white;
+  --sahne-font-weight:300;
+  --chars-font-weight:300;
+  --sahne-font-style:normal;
+  --chars-font-style:normal;
+  --chars-text-decoration:none;
+  --sahne-text-decoration:none;
+  --sahne-text-transform:none;
+  --chars-text-transform:none;
+}
+
+.chars{
+  color: var(--chars-text-color);
+  font-size: var(--chars-font-size);
+  font-family: var(--chars-font-family);
+  background-color: var(--chars-background-color);
+  font-weight: var(--chars-font-weight);
+  font-style: var(--chars-font-style);
+  text-decoration: var(--chars-text-decoration);
+  text-transform: var(--chars-text-transform);
+}
+
+.sahne{
+line-height: var(--sahne-line-height);
+color:  var(--sahne-color);
+font-size: var(--sahne-font-size);
+text-indent: var(--sahne-text-indent);
+font-family: var(--sahne-font);
+background-color: var(--sahne-background-color);
+font-weight: var(--sahne-font-weight);
+font-style: var(--sahne-font-style);
+text-decoration: var(--sahne-text-decoration);
+text-transform: var(--sahne-text-transform);
+}
