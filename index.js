@@ -8,12 +8,16 @@ const dynamicCSS = {
   'sahne-font-family': 'Arial',
   'sahne-font-style': 'normal',
   'chars-font-style': 'normal',
-  'sahne-font-decoration': 'none',
-  'chars-font-decoration': 'none',
-  'sahne-font-transform': 'none',
-  'chars-font-transform': 'none',
+  'sahne-text-decoration': 'none',
+  'chars-text-decoration': 'none',
+  'sahne-text-transform': 'none',
+  'chars-text-transform': 'none',
   'sahne-font-size': 10,
-  'chars-font-size': 10
+  'chars-font-size': 10,
+  'sahne-line-height': 1.5,
+  'chars-line-height': 1.5,
+  'sahne-font-weight': 300,
+  'chars-font-weight': 300
 }
 document.addEventListener('DOMContentLoaded', function () {
   bodyStyles = document.documentElement.style
